@@ -6,21 +6,35 @@ const skillsData = [
     category: "Frontend",
     skills: [
       { name: "HTML5 & CSS3", proficiency: 90 },
+<<<<<<< HEAD
       { name: "JavaScript (ES6+)", proficiency: 80 },
       { name: "TypeScript", proficiency: 70 },
       { name: "React", proficiency: 70 },
       { name: "Tailwind CSS", proficiency: 80 },
+=======
+      { name: "JavaScript (ES6+)", proficiency: 85 },
+      { name: "TypeScript", proficiency: 80 },
+      { name: "React", proficiency: 85 },
+      { name: "Tailwind CSS", proficiency: 90 },
+>>>>>>> cc220a2 (Refactor: Frontend portfolio)
     ]
   },
   {
     category: "Tools & Other",
     skills: [
       { name: "Git & GitHub", proficiency: 85 },
+<<<<<<< HEAD
       { name: "Responsive Design", proficiency: 90 },
       { name: "Webpack/Vite", proficiency: 75 },
       { name: "Problem Solving ", proficiency: 80 },
       { name: "Teamwork", proficiency: 85 },
       { name: "Performance Optimization", proficiency: 90 },
+=======
+      { name: "Responsive Design", proficiency: 95 },
+      { name: "Webpack/Vite", proficiency: 75 },
+      { name: "UI/UX Design", proficiency: 80 },
+      { name: "Performance Optimization", proficiency: 75 },
+>>>>>>> cc220a2 (Refactor: Frontend portfolio)
     ]
   }
 ];

@@ -30,6 +30,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8">
+<<<<<<< HEAD
             I build engaging user interfaces and interactive web pages with modern technologies and best practices.
           </p>
           
@@ -44,6 +45,18 @@ const Hero = () => {
               Contact Me
             </Button>
             </a>
+=======
+            I build engaging user interfaces and interactive web applications with modern technologies and best practices.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 mb-16">
+            <Button size="lg" className="bg-secondary hover:bg-secondary/90 transition-colors">
+              View My Projects
+            </Button>
+            <Button variant="outline" size="lg">
+              Contact Me
+            </Button>
+>>>>>>> cc220a2 (Refactor: Frontend portfolio)
           </div>
         </div>
       </div>

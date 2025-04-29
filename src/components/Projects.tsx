@@ -6,7 +6,6 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projectsData = [
   {
-<<<<<<< HEAD
     title: "IoT Home Security Dashboard",
     description: "A React-based dashboard to monitor and visualize data from IoT sensors like temperature, humidity, and vibration, integrated with ThingSpeak and Telegram Bot.",
     technologies: ["React", "JavaScript", "IoT", "ThingSpeak", "Tailwind CSS"],
@@ -37,38 +36,6 @@ const projectsData = [
     github: "https://github.com/MoeThetPanHnin/e-commerce",
     liveDemo: "https://shop-in-korea.netlify.app/", 
     imageUrl: "/images/e-commerce.png"
-=======
-    title: "E-commerce Dashboard",
-    description: "A responsive admin dashboard for an e-commerce platform with analytics, product management, and order tracking.",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-    github: "#",
-    liveDemo: "#",
-    imageUrl: ""
-  },
-  {
-    title: "Task Management App",
-    description: "A drag-and-drop task management application with team collaboration features and real-time updates.",
-    technologies: ["React", "Redux", "Firebase", "Styled Components"],
-    github: "#",
-    liveDemo: "#",
-    imageUrl: ""
-  },
-  {
-    title: "Weather Forecast App",
-    description: "A weather application that provides current conditions and 5-day forecasts for locations worldwide.",
-    technologies: ["React", "Context API", "REST API", "CSS Modules"],
-    github: "#",
-    liveDemo: "#",
-    imageUrl: ""
-  },
-  {
-    title: "Portfolio Website",
-    description: "A personal portfolio website showcasing projects and skills with a modern, responsive design.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-    github: "#",
-    liveDemo: "#",
-    imageUrl: ""
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
   }
 ];
 
@@ -111,15 +78,16 @@ const Projects = () => {
           {projectsData.map((project, idx) => (
             <Card key={idx} className="overflow-hidden border border-border/40 reveal">
               <div className="aspect-video bg-muted flex items-center justify-center">
-<<<<<<< HEAD
+
+
                 <img 
                   src={project.imageUrl} 
                   alt={project.title} 
                   className="object-cover w-full h-full" 
                />
-=======
+
                 <span className="text-muted-foreground text-sm">Project Screenshot</span>
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
+
               </div>
               
               <CardContent className="p-6">
@@ -156,15 +124,13 @@ const Projects = () => {
           ))}
         </div>
         
-<<<<<<< HEAD
-        
-=======
+
         <div className="text-center mt-12 reveal">
           <Button variant="outline">
             View All Projects
           </Button>
         </div>
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
+
       </div>
     </section>
   );

@@ -15,11 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div>
             <a href="#" className="text-xl font-bold">
-<<<<<<< HEAD
               <span>MOETHETPANHNIN</span>
-=======
-              <span className="gradient-text">Dev</span>Portfolio
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
             </a>
             <p className="text-muted-foreground mt-2">
               &copy; {new Date().getFullYear()} All rights reserved.
@@ -37,13 +33,7 @@ const Footer = () => {
           </div>
         </div>
         
-<<<<<<< HEAD
        
-=======
-        <div className="border-t border-border/40 mt-8 pt-8 text-center text-muted-foreground text-sm">
-          Designed and built with ❤️ using React, TypeScript, and Tailwind CSS
-        </div>
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
       </div>
     </footer>
   );

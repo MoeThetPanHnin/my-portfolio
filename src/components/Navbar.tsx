@@ -33,13 +33,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex-shrink-0">
-<<<<<<< HEAD
             <a href="#home" className="text-xl md:text-2xl font-bold text-primary">
               MOETHETPANHNIN
-=======
-            <a href="#" className="text-xl md:text-2xl font-bold text-primary">
-              <span className="gradient-text">Dev</span>Portfolio
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
             </a>
           </div>
 
@@ -55,19 +50,9 @@ const Navbar = () => {
                   {item.label}
                 </a>
               ))}
-<<<<<<< HEAD
-              <a 
-                 href="/MoeThetPanHnin-Resume.pdf" 
-                 download 
-                className="px-3 py-2 text-sm font-medium border border-border rounded-md hover:bg-muted transition-colors"
-              >
-              Resume
-              </a>
-=======
               <Button size="sm" variant="outline">
                 Resume
               </Button>
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
             </div>
           </div>
 
@@ -100,19 +85,9 @@ const Navbar = () => {
               </a>
             ))}
             <div className="px-3 py-2">
-<<<<<<< HEAD
-            <a 
-              href="/MoeThetPanHnin-Resume.pdf" 
-              download 
-              className="block text-center px-3 py-2 text-sm font-medium border border-border rounded-md hover:bg-muted transition-colors"
-            >
-             Resume
-            </a>
-=======
               <Button size="sm" variant="outline" className="w-full">
                 Resume
               </Button>
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
             </div>
           </div>
         </div>

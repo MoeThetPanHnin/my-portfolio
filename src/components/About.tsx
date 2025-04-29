@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
 import { useEffect, useRef } from "react";
 
 const About = () => {
@@ -37,7 +33,6 @@ const About = () => {
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center reveal">
-<<<<<<< HEAD
             About Me
           </h2>
           <div className="grid md:grid-cols-5 gap-8 items-center">
@@ -70,38 +65,6 @@ const About = () => {
                 <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">TypeScript</span>
                 <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">Tailwind CSS</span>
                 
-=======
-            About <span className="gradient-text">Me</span>
-          </h2>
-          
-          <div className="grid md:grid-cols-5 gap-8 items-center">
-            <div className="md:col-span-2 reveal">
-              <div className="aspect-square rounded-2xl overflow-hidden bg-secondary/10 border border-border relative">
-                <div className="absolute inset-0 flex items-center justify-center text-secondary">
-                  <span className="text-sm">Your Photo</span>
-                </div>
-              </div>
-            </div>
-            
-            <div className="md:col-span-3 reveal">
-              <p className="text-lg mb-4">
-                Hi there! I'm a passionate Frontend Developer specializing in creating beautiful, responsive, and user-friendly web applications.
-              </p>
-              
-              <p className="text-lg mb-4">
-                With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through clean code and intuitive user interfaces. My expertise includes modern frameworks like React, along with tools like Tailwind CSS and TypeScript.
-              </p>
-              
-              <p className="text-lg">
-                I'm driven by the challenge of solving complex UI problems and creating seamless experiences that delight users. When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying outdoor activities.
-              </p>
-              
-              <div className="mt-6 flex flex-wrap gap-3">
-                <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">UI/UX</span>
-                <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">React</span>
-                <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">TypeScript</span>
-                <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">Tailwind CSS</span>
->>>>>>> cc220a2 (Refactor: Frontend portfolio)
               </div>
             </div>
           </div>
@@ -111,8 +74,4 @@ const About = () => {
   );
 };
 
-<<<<<<< HEAD
 export default About;
-=======
-export default About;
->>>>>>> cc220a2 (Refactor: Frontend portfolio)

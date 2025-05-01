@@ -86,7 +86,7 @@ const Projects = () => {
                   className="object-cover w-full h-full" 
                />
 
-                <span className="text-muted-foreground text-sm">Project Screenshot</span>
+                
 
               </div>
               
@@ -125,11 +125,7 @@ const Projects = () => {
         </div>
         
 
-        <div className="text-center mt-12 reveal">
-          <Button variant="outline">
-            View All Projects
-          </Button>
-        </div>
+       
 
       </div>
     </section>
